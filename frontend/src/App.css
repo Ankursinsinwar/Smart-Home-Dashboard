@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+
+.devices, .cameras {
+  display: flex;
+  gap: 20px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+button.active {
+  background-color: green;
+  color: white;
+}
