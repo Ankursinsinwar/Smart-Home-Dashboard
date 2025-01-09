@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.dashboard {
+    max-width: 900px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+}
+
+h2 {
+    font-size: 18px;
+    margin: 20px 0 10px;
+    color: #555;
+}
+
+.overview-cards {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.card {
+    flex: 1;
+    background-color: #e7e7e7;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    position: relative;
+    color: #444;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card i {
+    font-size: 24px;
+    color: #6200ea;
+}
+
+.card span {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.progress-bar {
+    background-color: #ddd;
+    height: 8px;
+    width: 100%;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 8px;
+}
+
+.progress-bar div {
+    background-color: #6200ea;
+    height: 100%;
+    transition: width 0.3s;
+}
+
+.device-list {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.device {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.device i {
+    font-size: 24px;
+    color: #555;
+}
+
+.device button {
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.device button.active {
+    background-color: #bbb;
+}
+
+.camera-list {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.camera {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.camera img {
+    width: 100%;
+    border-radius: 8px;
+    
+}
