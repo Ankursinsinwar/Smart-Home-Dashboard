@@ -1,7 +1,7 @@
 🏡 Smart Home Dashboard
 =======================
 
-A modern **Smart Home Dashboard** for monitoring and controlling smart devices in real time. This dashboard integrates **Firebase** for authentication, database, and real-time updates.
+A modern **Smart Home Dashboard** for monitoring and controlling smart devices in real time. This dashboard integrates **Firebase** for database, and real-time updates.
 
 🚀 Features
 -----------
